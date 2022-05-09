@@ -1,0 +1,177 @@
+body {
+    background: linear-gradient(183deg, #edeae5 0%, #04a6a6 100%);
+}
+
+ 
+@-webkit-keyframes wobble-ver-left {
+    0%,
+    100% {
+      -webkit-transform: translateY(0) rotate(0);
+              transform: translateY(0) rotate(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateY(-30px) rotate(-6deg);
+              transform: translateY(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateY(15px) rotate(6deg);
+              transform: translateY(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateY(-15px) rotate(-3.6deg);
+              transform: translateY(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateY(9px) rotate(2.4deg);
+              transform: translateY(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateY(-6px) rotate(-1.2deg);
+              transform: translateY(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-ver-left {
+    0%,
+    100% {
+      -webkit-transform: translateY(0) rotate(0);
+              transform: translateY(0) rotate(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateY(-30px) rotate(-6deg);
+              transform: translateY(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateY(15px) rotate(6deg);
+              transform: translateY(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateY(-15px) rotate(-3.6deg);
+              transform: translateY(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateY(9px) rotate(2.4deg);
+              transform: translateY(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateY(-6px) rotate(-1.2deg);
+              transform: translateY(-6px) rotate(-1.2deg);
+    }
+  }
+  
+
+ 
+@-webkit-keyframes slit-out-vertical {
+    0% {
+      -webkit-transform: translateZ(0) rotateY(0);
+              transform: translateZ(0) rotateY(0);
+      opacity: 1;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateY(87deg);
+              transform: translateZ(-160px) rotateY(87deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(-800px) rotateY(90deg);
+              transform: translateZ(-800px) rotateY(90deg);
+      opacity: 0;
+    }
+  }
+  @keyframes slit-out-vertical {
+    0% {
+      -webkit-transform: translateZ(0) rotateY(0);
+              transform: translateZ(0) rotateY(0);
+      opacity: 1;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateY(87deg);
+              transform: translateZ(-160px) rotateY(87deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(-800px) rotateY(90deg);
+              transform: translateZ(-800px) rotateY(90deg);
+      opacity: 0;
+    }
+  }
+
+#oj {
+    width: auto;
+    height:auto;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    
+}
+
+#moon{
+
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+}
+#link {
+
+    width: 500px;
+    height: 750px;
+}
+a:hover {
+        
+    -webkit-animation: slit-out-vertical 0.6s ease-in forwards;
+    animation: slit-out-vertical 0.6s ease-in forwards;
+}
+    
+
+
+ 
+#homepagelink {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+
+}
+
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 72px;
+     color: rgb(166, 10, 184);
+     left: 650px;
+     top: 30px;
+     position: absolute;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;;
+    font-size: 14px;
+     color: black;
+     left: 650px;
+     top: 10px;
+     position: absolute;
+}
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+     color: rgb(249, 249, 249);
+     left: 650px;
+     top: 700px;
+     position: absolute;
+}
+
+h3 { 
+    font-family: 'Inconsolata', monospace;;
+    font-size: 14px;
+     color: black;
+     left: 650px;
+     top: 500px;
+     position:static;
+
+}

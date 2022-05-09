@@ -1,0 +1,282 @@
+body{
+    background-image: url('https://78.media.tumblr.com/334e20a0491b7176c825f6cb5b3ad137/tumblr_mhph7mM1Ah1rvn6njo1_500.gif');
+    background-size: auto;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+ @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(1.00);
+              transform: scale(1.00);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.90);
+              transform: scale(0.90);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+.head {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 1300px;
+
+}
+.a {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+
+}
+.b {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 130px;
+    
+    }.c {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 350px;
+    
+    }.d {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 500px;
+    
+    }.e {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 650px;
+    
+    }.f {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left:800px;
+    
+    }.g {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 900px;
+    
+    }.h {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 350px;
+    
+    }.i {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 1200px;
+    
+    }.j {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 460px;
+    
+    }.k {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 900px;
+    
+    }.l {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 70px;
+        left: 1050px;
+    
+    }.m {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 1050px;
+    
+    }.n {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 500px;
+    
+    }.o {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 950px;
+    
+    }.p {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 0px;
+    
+    }.q {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 130px;
+    
+    }.r {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 350px;
+    
+    }.s {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 500px;
+    
+    }.t {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 650px;
+    
+    }.u {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 800px;
+        left: 800px;
+    
+    }
+
+
+
+
+
+
+
+
+h1 { color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    top: 255px;
+    left: 400px;
+    position:absolute;
+   
+        -webkit-animation: pulse 1.2s ease-in-out infinite both;
+                animation: pulse 1.2s ease-in-out infinite both;
+    
+
+}
+h3 { color: rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        top: 400px;
+        left: 50px;
+        position:absolute;
+       
+         
+        
+    
+    }
+
+    h2{
+        color: rgb(140, 255, 40);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        top: 20px;
+        left: 650px;
+        position:absolute;
+    }
+
+
+
+
